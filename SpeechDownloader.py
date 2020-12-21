@@ -20,14 +20,6 @@ import audioUtils
 # Google Speech Commands Dataset V2
 # ##################
 
-# GSCmdV2Categs = {'unknown': 0,'silence': 0,'_unknown_': 0,'_silence_': 0,
-#     '_background_noise_': 0,'yes': 2,'no': 3,'up': 4,'down': 5,'left': 6,
-#     'right': 7,'on': 8,'off': 9,'stop': 10,'go': 11,'zero': 12,'one': 13,
-#     'two': 14,'three': 15,'four': 16,'five': 17,'six': 18,'seven': 19,
-#     'eight': 20,'nine': 1}
-# numGSCmdV2Categs = 21
-
-
 # def PrepareGoogleSpeechCmd(version=2, forceDownload=False, task='20cmd'):
 def PrepareGoogleSpeechCmd(version,forceDownload=False, task='35word'):
     """
